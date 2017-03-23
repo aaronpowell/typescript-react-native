@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "allowJs": true,
+        "jsx": "react-native",
+        "outDir": "dist",
+        "rootDir": "src",
+        "sourceMap": true,
+        "noImplicitAny": false,
+        "preserveConstEnums": true,
+        "moduleResolution": "node"
+    },
+    "filesGlob": [
+        "src/**/*.ts",
+        "src/**/*.tsx"
+    ],
+    "exclude": [
+        "dist",
+        "node_modules"
+    ],
+    "compileOnSave": false
+}
